@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>China Mex</title>
+    <style>
+        body {
+            background-color: red;
+            font-family: Arial, sans-serif;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            margin: 20px 0;
+        }
+
+        button {
+            margin: 0 10px;
+            padding: 10px 15px;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        #btnQuienesSomos {
+            background-color: blue;
+        }
+
+        #btnHistoria {
+            background-color: green;
+        }
+
+        #btnUbicacion {
+            background-color: orange;
+        }
+
+        #btnContactos {
+            background-color: purple;
+        }
+
+        #btnAgradecimientos {
+            background-color: yellow;
+        }
+
+        main {
+            text-align: center;
+            margin: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>China Mex</h1>
+        <nav>
+            <button id="btnQuienesSomos">¿Quiénes somos?</button>
+            <button id="btnHistoria">Historia</button>
+            <button id="btnUbicacion">Ubicación</button>
+            <button id="btnContactos">Medios de contacto</button>
+            <button id="btnAgradecimientos">Agradecimientos</button>
+        </nav>
+    </header>
+    <main>
+        <img src="https://via.placeholder.com/600x200?text=Dragón+Chino" alt="Dragón Chino">
+        <section id="descripcion">
+            <h2>Nuestros Productos</h2>
+            <p>
+                En China Mex, comercializamos una amplia variedad de productos chinos de alta calidad. 
+                Desde artesanías tradicionales hasta tecnología moderna, nuestros productos reflejan la 
+                rica cultura y diversidad de China. Te invitamos a descubrir lo mejor de la manufactura china 
+                en el corazón de México.
+            </p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Monterrey, Nuevo León, México 2024</p>
+    </footer>
+    <script>
+        document.getElementById('btnQuienesSomos').onclick = function() {
+            alert("Nos dedicamos a la comercialización de productos chinos en México.");
+        };
+
+        document.getElementById('btnHistoria').onclick = function() {
+            alert("Fundada en 2024, China Mex busca conectar a México con la cultura china.");
+        };
+
+        document.getElementById('btnUbicacion').onclick = function() {
+            alert("Estamos ubicados en Monterrey, Nuevo León.");
+        };
+
+        document.getElementById('btnContactos').onclick = function() {
+            alert("Puedes contactarnos a través de nuestro correo: contacto@chinamex.com");
+        };
+
+        document.getElementById('btnAgradecimientos').onclick = function() {
+            alert("Gracias por visitar nuestro sitio web.");
+        };
+    </script>
+</body>
+</html>
